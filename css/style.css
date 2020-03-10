@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.test1 {
+  border: 30px solid transparent;
+  padding: 15px;
+  border-image: url("../img/border.png") 30 30 stretch;
+  text-align: center;
+}
+
+.test2 {
+  border: 30px solid transparent;
+  padding: 15px;
+  border-image: url("../img/border.png") 30 30 repeat;
+  text-align: center;
+}
+
+.test3 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("../img/border.png") 20% round;
+  text-align: center;
+}
+
+.test4 {
+  width: 300px;
+  background-color: transparent;
+  border: 30px solid #de31ed;
+  margin: 10%;
+  padding: 10px;
+  border-image: repeating-linear-gradient(30deg, #de31ed, #31e2ed 80px) 40;
+  text-align: center;
+}
+
+.test5 {
+  border: 40px solid transparent;
+  padding: 50px;
+  border-image: url("../img/borde_2.png") 20% round;
+  text-align: center;
+}
+
+.test6 {
+  border: 40px solid transparent;
+  padding: 50px;
+  border-image: url("../img/borde_2.png") 20% stretch;
+  text-align: center;
+}
+
+.test7 {
+  width: 400px;
+  background-color: transparent;
+  border: 60px double #de31ed;
+  margin: 10%;
+  padding: 10px;
+  border-image: url(../img/birds2.gif) 25% repeat;
+}
+
+.test8 {
+  width: 400px;
+  background-color: transparent;
+  border: 30px outset #de31ed;
+  margin: 10%;
+  padding: 10px;
+  border-image: url(../img/waves.jpeg) 10% stretch;
+}
